@@ -7,6 +7,6 @@ jobs:
       - name: checkout code
         uses: actions/checkout@v4 
       - name: Build image
-        run: docker build -t kserge2001/ciportofolio .
+        run: docker build -t shaggii23/ciportofolio .
       - name: List images
         run: docker images
